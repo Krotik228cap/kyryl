@@ -1,20 +1,23 @@
 body {
-font-family: sans-serif;
-background-color: #f0f0f0;
-color: #333;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 
+.card {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
 }
-.container {
-text-align: center;
-padding: 20px;
-border-radius: 8px;
-background-color: white;
-box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
+
 h1 {
-color: #4a90e2;
+    color: #2A3443;
+    margin-top: 0;
+}
